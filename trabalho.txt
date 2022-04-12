@@ -1,0 +1,24 @@
+para escrever no ecra:
+write(), nl.
+format(String_formatacao, [argumentos]).
+format('~s ~n', ['O meu texto']).
+
+tabuleiro(linha( , , ),
+            linha( , , ),
+            ...
+            ).
+
+
+LISTAS
+:- use_module(library(lists)).
+[a,b,c,d]
+[Head | Tail]
+
+member(X, Lista).
+member(X, [X|_]).  // _ : variável anónima (place holder)
+
+tabuleiro([[linha1],
+            [linha2],
+            [linha3],
+            ...
+            ]).

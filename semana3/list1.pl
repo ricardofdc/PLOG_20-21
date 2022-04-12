@@ -1,0 +1,12 @@
+?- [a|[b,c,d]] = [a,b,c,d]. 
+?- [a|b,c,d] = [a,b,c,d]. 
+?- [H|T] = [apple, broccoli, refrigerator]. 
+?- [H|T] = [a, b, c, d, e]. 
+?- [H|T] = [apples, bananas]. 
+?- [H|T] = [a, [b,c,d]]. 
+?- [H|T] = [apples]. 
+?- [H|T] = []. 
+?- [One, Two | T] = [apple, sprouts, fridge, milk]. 
+?- [X,Y|T] = [a|Z]. 
+?- [H|T] = [apple, Z]. 
+?- [a|[b|[c|[d|[]]]]] = [a,b,c,d].
